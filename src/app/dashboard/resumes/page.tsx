@@ -1,9 +1,11 @@
-export default function DashboardResumesPage() {
+import { ResumesList } from "@/components/pages/dashboard/resumes/resumes-list";
 
-return (
+export default function DashboardResumesPage() {
+  return (
     <>
-        <h1>Resumes</h1>
-        <p>Here you can see all resumes</p>
+      <h1 className="text-4xl font-title font-bold mb-6">Curriculos</h1>
+
+      <ResumesList />
     </>
-)
+  );
 }

@@ -13,7 +13,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
     <div className="w-fuill h-screen overflow-hidden grid grid-cols-[300px,1fr]">
       <aside className="w-full h-full flex flex-col items-center border-r border-muted">
         <div className="w-full p-6 border-p border-muted">
-            <Logo className="max-w-[100px] mx-auto" />
+          <Logo className="max-w-[100px] mx-auto" />
         </div>
 
         <NavItems />
@@ -24,7 +24,9 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         </div>
       </aside>
 
-      <main className="p6 flex flex-col w-full overflow-auto">{children}</main>
+      <main className="p-6 flex flex-col w-full h-full overflow-auto">
+        {children}
+      </main>
     </div>
   );
 }
