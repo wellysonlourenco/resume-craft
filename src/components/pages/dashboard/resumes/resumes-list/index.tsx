@@ -1,5 +1,5 @@
 import { AddResumeButton } from "../add-resume-button";
-import { NewResumeDialog } from "../new-resume0dialog";
+import { NewResumeDialog } from "../new-resume-dialog";
 import { ResumeCard } from "../resumes-card";
 
 export const ResumesList = () => {
